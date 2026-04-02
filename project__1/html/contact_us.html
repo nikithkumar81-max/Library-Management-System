@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <h2>My site</h2>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="course.html">Course</a>
+                <a href="contact_us.html">Contact</a>
+                <a href="Signup.html">Signup</a>    
+            </div>
+    </nav>
+    <section class="container">
+    <h1>Contact Us</h1>
+
+    <p>Email: support@mysite.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Location: Bangalore, India</p>
+
+    <h3>Send Message</h3>
+
+    <form onsubmit="return validateContact()">
+        <input type="text" placeholder="Name" id="name"><br><br>
+        <input type="email" placeholder="Email" id="email"><br><br>
+        <textarea placeholder="Message" id="mess" oninput=" countchars()"></textarea><br><br>
+        <p id="count">0 characters</p>
+        <button>Send</button>
+    </form>
+</section>
+    <footer>
+        <p>&copy; 2026 Mysite</p>
+    </footer>
+
+    <script src="/javascript/contact_us.js"></script>
+</body>
+</html>

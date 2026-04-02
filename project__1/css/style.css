@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f5f7fa;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Button */
+.btn, button {
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn:hover, button:hover {
+    background: #1d4ed8;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Forms */
+form input, textarea {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Footer */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+/* Main content grows */
+.container, section {
+    flex: 1;
+}
+
+/* Footer stays at bottom */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content grows */
+.container, section {
+    flex: 1;
+}
+
+/* Footer stays at bottom */
